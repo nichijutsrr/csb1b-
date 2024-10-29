@@ -67,6 +67,7 @@ public class Tile {
         }
     }
 
+
     @Override
     public String toString() {
         return String.format("%d@(%d, %d)", value(), col(), row());
