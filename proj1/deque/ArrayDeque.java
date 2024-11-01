@@ -2,7 +2,7 @@ package deque;
 
 import java.util.Iterator;
 
-public class ArrayDeque<T> implements Iterable<T> {
+public class ArrayDeque<T> implements Iterable<T> , Deque<T>{
     private static final int INITIAL_CAPACITY = 8;
     private static final int K = 4;
     private T[] array;

@@ -1,10 +1,9 @@
 package deque;
 
-import java.util.Deque;
 import java.util.Iterator;
 
 // 分层 , 缓存 , 不变量
-public class LinkedListDeque<T> implements Iterable<T> {
+public class LinkedListDeque<T> implements Iterable<T> , Deque<T> {
     private class Node{
         T item;
         Node prev;
